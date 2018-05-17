@@ -13,7 +13,7 @@ namespace DocumentFactory
 
             #region Resume Demo
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Resume Pages:");
+            Console.WriteLine($"{resume.Type} Pages:");
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine();
 
@@ -48,7 +48,7 @@ namespace DocumentFactory
 
             #region Report Demo
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Report Pages:");
+            Console.WriteLine($"{report.Type} Pages:");
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine();
 
